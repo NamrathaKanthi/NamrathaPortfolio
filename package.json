@@ -1,0 +1,16 @@
+{
+  "name": "MyProtfolio",
+  "version": "1.0.0",
+  "description": "MyProtfolio",
+  "main": "index.html",
+  "scripts": {
+    "preinstall": "npm install -g http-server",
+    "start": "http-server"
+  },
+  "author": "Trinethra Reddy Alamur",
+  "license": "MTC",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/cli": "^1.5.3"
+  }
+}

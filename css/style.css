@@ -1,0 +1,154 @@
+﻿/*===padding styles=====*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+div.main-sec {
+    background-size: 100% 100%;
+    background-image: url("../images/homebg.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.white-color {
+    color: #fff;
+}
+
+.fa-arrow-right {
+    color: rgb(238, 97, 46);
+}
+
+.main-text-css {
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: fantasy;
+    margin: 10px;
+}
+
+.light-orange-color {
+    color: #e74a25;
+}
+
+.home-img-avtar {
+    width: 150px;
+    height: 150px;
+    margin: 1px auto;
+    border: 3px solid rgb(238, 97, 46);
+}
+
+.padding-none {
+    padding: 0px!important;
+}
+
+.padding-left-none {
+    padding-left: 0px!important;
+}
+
+.padding-right-none {
+    padding-right: 0px!important;
+}
+
+.padding-top-none {
+    padding-top: 0px!important;
+}
+
+.padding-bottom-none {
+    padding-bottom: 0px!important;
+}
+
+.padding-top-bottom-none {
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+.padding-left-right-none {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+
+/*====margin styles====*/
+
+.margin-none {
+    margin: 0px!important;
+}
+
+.margin-left-none {
+    margin-left: 0px!important;
+}
+
+.margin-right-none {
+    margin-right: 0px!important;
+}
+
+.margin-top-none {
+    margin-top: 0px!important;
+}
+
+.margin-bottom-none {
+    margin-bottom: 0px!important;
+}
+
+.margin-top-bottom-none {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}
+
+.margin-left-right-none {
+    margin-left: 0px !important;
+    margin-right: 0px!important;
+}
+
+.margin-top-10 {
+    margin-top: 10px!important;
+}
+
+.margin-top-20 {
+    margin-top: 20px!important;
+}
+
+.margin-top-80 {
+    margin-top: 80px!important;
+}
+
+
+/*============ng-click style============*/
+
+[ng-click],
+[data-ng-click],
+a {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.panel-info,
+.panel-success,
+.panel-danger,
+.panel-info,
+.panel-default,
+.panel-warning {
+    border: none;
+    box-shadow: 0 1px 11px 0 rgba(0, 0, 0, .2), 0 1px 10px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+}
